@@ -10,7 +10,13 @@ const Navbar = () => {
           <img src={logo} alt='cocktail db logo'
           className='logo'></img>
         </Link>
-        
+        <ul className='nav-links'>
+          <li>
+            <Link to='/'>
+              Home
+            </Link>
+          </li>
+        </ul>
       </div>
     </nav>
   )
