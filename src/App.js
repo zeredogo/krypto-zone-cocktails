@@ -27,6 +27,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
+    )
 }
 
 export default App
