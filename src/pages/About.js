@@ -13,7 +13,7 @@ const About = () => {
         accusantium, ipsum esse
         distinctio accusamus laborum illum similique cupiditate
         consequatur
-        quasi ab. Iure accusamus
+        quasi ab. Iure accusamus.
       </p>
     </section>
   )
