@@ -14,9 +14,15 @@ const AppProvider = ({ children }) => {
     try {
       const response = await fetch(`${url}${searchTerm}`);
       const data = await response.json();
-      console.log(data);
+      const {drinks} = data;
+      if(drinks){
+      } else {
+        setCocktails([]);
+      }
+      setLoading(false)
     } catch (error) {
       console.log(error);
+      setLoading(false);
     }
   }
   useEffect(() => {
