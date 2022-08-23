@@ -19,6 +19,9 @@ const AppProvider = ({ children }) => {
       console.log(error);
     }
   }
+  useEffect(() => {
+    fetchDrinks()
+  }, [searchTerm])
   return <AppContext.Provider 
   value={{
     loading,
