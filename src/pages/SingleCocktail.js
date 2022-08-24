@@ -89,16 +89,19 @@ const SingleCocktail = () => {
             {category}
           </p>
           <p>
-            <span className='drink-data'>name :</span>
-            {name}
+            <span className='drink-data'>info :</span>
+            {info}
           </p>
           <p>
-            <span className='drink-data'>name :</span>
-            {name}
+            <span className='drink-data'>glass :</span>
+            {glass}
           </p>
           <p>
-            <span className='drink-data'>name :</span>
-            {name}
+            <span className='drink-data'>instructions :</span>
+            {instructions}
+          </p>
+          <p>
+            <span className='drink-data'>ingredients :</span>
           </p>
         </div>
       </div>
