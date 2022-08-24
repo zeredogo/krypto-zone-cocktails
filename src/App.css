@@ -409,4 +409,10 @@ Variables
       height: 5em;
     }
   }
+  .footer{
+    text-align: center;
+    border: none;
+    padding: 20px;
+    margin-bottom: 0;
+  }
   
