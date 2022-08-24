@@ -72,7 +72,7 @@ const SingleCocktail = () => {
     ingredients,
        } = cocktail;
   return (
-    <section>
+    <section className='section cocktail-section'>
       <h2 className='section-title'>{name}</h2>
     </section>
   )
