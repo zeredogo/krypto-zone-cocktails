@@ -20,4 +20,4 @@ const Cocktail = ({ image, name, id, info, glass }) => {
   )
 }
 
-export default Cocktail
+export default Cocktail;
