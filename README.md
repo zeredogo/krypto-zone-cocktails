@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#### React Router Fix
+
+(Fix)[https://dev.to/dance2die/page-not-found-on-netlify-with-react-router-58mc]
+
+#### CRA Fix
+
+```
+
+"build": "CI= react-scripts build",
+
+```
+
+```sh
+npm install react-router-dom@6
+```
