@@ -112,4 +112,4 @@ const SingleCocktail = () => {
   )
 }
 
-export default SingleCocktail
+export default SingleCocktail;
